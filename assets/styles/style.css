@@ -1,0 +1,1104 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Helvetica;
+}
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.buyItem>a{
+    border: solid 1px orange;
+    font-size: 125%;
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 174, 0);
+}
+.buyItem>a:hover{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 5px;
+}
+
+.sellItem>a{
+    border: solid 1px orange;
+    font-size: 125%;
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 174, 0);
+}
+
+.sellItem>a:hover{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 5px;
+}
+
+.registr>a{
+    border: solid 1px orange;
+    font-size: 125%;
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 174, 0);
+}
+
+.registr>a:hover{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 5px;
+}
+
+.loginInAcc>a{
+    border: solid 1px orange;
+    font-size: 125%;
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 174, 0);
+}
+
+.loginInAcc>a:hover{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 5px;
+}
+
+.buyItemBlock{
+    margin-left: 10em;
+    margin-top: 45px;
+}
+
+.sellItemBlock{
+    margin-left: 15.5rem;
+    margin-top: 45px;
+}
+
+.regBlock{
+    margin-left: 22.2em;
+    margin-top: 45px;
+}
+
+.loginInAcc{
+    margin-left: 30.6em;
+    margin-top: 45px;
+}
+
+.mainPageSwitch>a{
+    border: solid 1px orange;
+    font-size: 125%;
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 174, 0);
+}
+
+.mainPageSwitch>a:hover{
+    position: absolute;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    margin-left: 30.9em;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.contentLine{
+    position: absolute;
+    background-color: rgb(241, 240, 240);
+    width: 100%;
+    height: 100%;
+    top: 120px;
+    left: 0px;
+}
+
+.regFormArea{
+    margin-top: 70px;
+    margin-left: 35%;
+}
+
+.nameRegUser{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+}
+
+.passRegUser{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.numberRegUser{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.regBtn{
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 10px;
+    background-color: rgb(187, 255, 52);
+    border-style: none;
+    cursor: pointer;
+}
+
+.LoginArea{
+    margin-top: 70px;
+    margin-left: 35%;
+}
+
+.nameToEnter{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+}
+
+.pass{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logInBtn{
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(187, 255, 52);
+    border-style: none;
+    cursor: pointer;
+}
+
+.logo{
+    color: rgb(255, 174, 0);
+    position: absolute;
+    font-size: 145%;
+    margin-left: 75vw;
+    top: 25px;
+    border-bottom: white solid 2px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.descriptionOfMainPage{
+    position: absolute;
+    top: 150px;
+    margin-left: 10%;
+}
+
+.fDesc{
+    position: absolute;
+    top: 140px;
+    color: rgb(0, 0, 0);
+    text-shadow:  5px 3px 5px rgb(255, 255, 255);
+    margin-left: 30px;
+    font-size: 150%;
+    width: 300px;
+}
+
+.imgItemMainPage{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    margin-left: 10px;
+    opacity: 75%;
+}
+
+.imgItemMainPageOne{
+    width: 350px;
+    height: 250px;
+    margin-left: 450px;
+    position: absolute;
+    opacity: 75%;
+}
+
+.udesc{
+    position: absolute;
+    top: 140px;
+    color: rgb(0, 0, 0);
+    text-shadow:  5px 3px 5px rgb(255, 255, 255);
+    font-size: 150%;
+    margin-left: 480px;
+    width: 300px;
+}
+
+.timg{
+    width: 350px;
+    height: 250px;
+    margin-left: 890px;
+    position: absolute;
+    opacity: 75%;
+}
+
+.tdesc{
+    position: absolute;
+    top: 140px;
+    color: rgb(0, 0, 0);
+    text-shadow:  5px 3px 5px rgb(255, 255, 255);
+    font-size: 150%;
+    margin-left: 910px;
+    width: 300px;
+}
+
+.nameOfProduct{
+    width: 450px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 35%;
+}
+
+.descOfProduct{
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 35%;
+}
+
+.imgOfProduct{
+    margin-top: 400px;
+    margin-left: 42%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.productBtn{
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 40%;
+    background-color: rgb(187, 255, 52);
+    border-style: none;
+    cursor: pointer;
+}
+
+.uploadItems{
+    top: 200px;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    margin-left: 25%;
+    overflow: scroll;
+}
+
+.buyProductName{
+    top: 20px;
+    width: 700px;
+    height: 200px;
+    border: solid 1px rgb(51, 113, 207);
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    z-index: 999;
+    color: rgb(51, 51, 51);
+}
+
+.productNameBuy{
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: absolute;
+    text-align: center;
+}
+
+.productDescBuy{
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    overflow: auto;
+}
+
+.buyProductName:hover{
+    color: black;
+}
+
+@media screen and (min-width: 765px) and (max-width: 1040px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .buyItem>a{
+        width: 41px;
+        border: solid 1px orange;
+        font-size: 100%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    .buyItem>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .sellItem>a{
+        width: 64px;
+        border: solid 1px orange;
+        font-size: 100%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .sellItem>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .registr>a{
+        width: 83px;
+        border: solid 1px orange;
+        font-size: 100%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .registr>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .loginInAcc>a{
+        width: 78px;
+        border: solid 1px orange;
+        font-size: 100%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .loginInAcc>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .buyItemBlock{
+        margin-left: 2em;
+        margin-top: 45px;
+    }
+    
+    .sellItemBlock{
+        margin-left: 7.5rem;
+        margin-top: 45px;
+    }
+    
+    .regBlock{
+        margin-left: 14.2em;
+        margin-top: 45px;
+    }
+    
+    .loginInAcc{
+        margin-left: 22em;
+        margin-top: 45px;
+    }
+    
+    .mainPageSwitch>a{
+        border: solid 1px orange;
+        font-size: 100%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+        width: 54px;
+    }
+    
+    .mainPageSwitch>a:hover{
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .main{
+        margin-left: 30em;
+        margin-top: 0px;
+        position: absolute;
+    }
+    
+    .contentLine{
+        position: absolute;
+        background-color: rgb(241, 240, 240);
+        width: 100vw;
+        height: 100vw;
+        top: 120px;
+        left: 0px;
+    }
+
+    .logo{
+        color: rgb(255, 174, 0);
+        position: absolute;
+        font-size: 110%;
+        margin-left: 75vw;
+        top: 25px;
+        border-bottom: white solid 2px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+    /* end of nav */
+    .buyProductName {
+        top: 20px;
+        width: 99%;
+        height: 30%;
+        border: solid 1px rgb(51, 113, 207);
+        background-color: white;
+        display: flex;
+        margin-bottom: 30px;
+        z-index: 999;
+        color: rgb(51, 51, 51);
+    
+    }
+
+    .uploadItems {
+        top: 200px;
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        margin-left: 5%;
+        overflow: scroll;
+    }
+
+    .productDescBuy {
+        margin-left: 70px;
+        margin-top: 60px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .descriptionOfMainPage {
+        position: absolute;
+        top: 150px;
+        margin-left: 5vw;
+    }
+
+    .imgItemMainPage {
+        width: 34vw;
+        height: 250px;
+        position: absolute;
+        margin-left: 10px;
+        opacity: 75%;
+    }
+
+    .fDesc {
+        position: absolute;
+        top: 140px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        margin-left: 30px;
+        font-size: 120%;
+        width: 300px;
+    }
+
+    .imgItemMainPageOne {
+        width: 34vw;
+        height: 250px;
+        margin-left: 42vw;
+        position: absolute;
+        opacity: 75%;
+    }
+
+    .udesc {
+        position: absolute;
+        top: 140px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        font-size: 120%;
+        margin-left: 45vw;
+        width: 250px;
+    }
+
+    .timg {
+        width: 34vw;
+        height: 250px;
+        margin-left: 20vw;
+        position: absolute;
+        opacity: 75%;
+        top: 325px;
+    }
+
+    .tdesc {
+        position: absolute;
+        top: 385px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        font-size: 120%;
+        margin-left: 24vw;
+        width: 300px;
+    }
+    /* end of 1040-750 */
+}
+
+@media screen and (min-width: 426px) and (max-width: 764px){
+    body{
+        width: 100vw;
+    }
+    .buyItem>a{
+        width: 34px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    .buyItem>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .sellItem>a{
+        width: 51px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .sellItem>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .registr>a{
+        width: 67px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .registr>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .loginInAcc>a{
+        width: 62px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .loginInAcc>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .buyItemBlock{
+        margin-left: 1em;
+        margin-top: 45px;
+    }
+    
+    .sellItemBlock{
+        margin-left: 4.5rem;
+        margin-top: 45px;
+    }
+    
+    .regBlock{
+        margin-left: 9em;
+        margin-top: 45px;
+    }
+    
+    .loginInAcc{
+        margin-left: 14.5em;
+        margin-top: 45px;
+    }
+    
+    .mainPageSwitch>a{
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+        width: 44px;
+        margin-left: 24.5em;
+    }
+    
+    .mainPageSwitch>a:hover{
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .main{
+        margin-left: 30em;
+        margin-top: 0px;
+        position: absolute;
+    }
+    
+    .contentLine{
+        position: absolute;
+        background-color: rgb(241, 240, 240);
+        width: 100vw;
+        height: 885px;
+        top: 175px;
+        left: 0px;
+    }
+
+    .logo{
+        color: rgb(255, 174, 0);
+        position: absolute;
+        font-size: 110%;
+        margin-left: 35vw;
+        top: 90px;
+        border-bottom: white solid 2px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+
+    /* end of nav */
+
+    .LoginArea{
+        margin-top: 70px;
+        margin-left: 20vw;
+    }
+
+    .regFormArea {
+        margin-top: 70px;
+        margin-left: 20vw;
+    }
+
+    .nameOfProduct {
+        width: 300px;
+        height: 30px;
+        position: absolute;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 11vw;
+    }
+
+    .descOfProduct {
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 11vw;
+    }
+
+    .imgOfProduct {
+        margin-top: 400px;
+        margin-left: 20vw;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    .productBtn {
+        width: 200px;
+        height: 25px;
+        position: absolute;
+        text-align: center;
+        margin-top: 450px;
+        margin-left: 22vw;
+        background-color: rgb(187, 255, 52);
+        border-style: none;
+        cursor: pointer;
+    }
+
+    .buyProductName {
+        top: 20px;
+        width: 99%;
+        height: 30%;
+        border: solid 1px rgb(51, 113, 207);
+        background-color: white;
+        display: flex;
+        margin-bottom: 30px;
+        z-index: 999;
+        color: rgb(51, 51, 51);
+    
+    }
+
+    .uploadItems {
+        top: 200px;
+        height: 101%;
+        width: 95%;
+        position: absolute;
+        margin-left: 5%;
+        overflow: scroll;
+    }
+
+    .productDescBuy {
+        margin-left: 70px;
+        margin-top: 60px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .descriptionOfMainPage {
+        position: absolute;
+        top: 150px;
+        margin-left: 5vw;
+    }
+
+    .imgItemMainPage {
+        width: 80vw;
+        height: 250px;
+        position: absolute;
+        margin-left: 10px;
+        opacity: 75%;
+    }
+
+    .fDesc {
+        position: absolute;
+        top: 140px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        margin-left: 30px;
+        font-size: 120%;
+        width: 300px;
+    }
+
+    .imgItemMainPageOne {
+        width: 80vw;
+        height: 250px;
+        margin-left: 10px;
+        top: 300px;
+        position: absolute;
+        opacity: 75%;
+    }
+
+    .udesc {
+        position: absolute;
+        top: 425px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        font-size: 120%;
+        margin-left: 18vw;
+        width: 250px;
+    }
+
+    .timg {
+        width: 80vw;
+        height: 250px;
+        margin-left: 10px;
+        position: absolute;
+        opacity: 75%;
+        top: 580px; 
+    }
+    
+    .tdesc {
+        position: absolute;
+        top: 700px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        font-size: 120%;
+        margin-left: 15vw;
+        width: 300px;
+    }
+    .descriptionOfMainPage {
+        position: absolute;
+        top: 200px;
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px){
+    body{
+        width: 100vw;
+    }
+    .buyItem>a{
+        width: 34px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    .buyItem>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .sellItem>a{
+        width: 51px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .sellItem>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .registr>a{
+        width: 70px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .registr>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .loginInAcc>a{
+        width: 62px;
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+    }
+    
+    .loginInAcc>a:hover{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 5px;
+    }
+    
+    .buyItemBlock{
+        margin-left: 3em;
+        margin-top: 45px;
+    }
+    
+    .sellItemBlock{
+        margin-left: 6.5rem;
+        margin-top: 45px;
+    }
+    
+    .regBlock{
+        margin-left: 11em;
+        margin-top: 45px;
+    }
+    
+    .loginInAcc{
+        margin-left: 16.8em;
+        margin-top: 45px;
+    }
+    
+    .mainPageSwitch>a{
+        border: solid 1px orange;
+        font-size: 80%;
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 174, 0);
+        width: 44px;
+        margin-left: 13.3em;
+        top:80px;
+    }
+    
+    .mainPageSwitch>a:hover{
+        position: absolute;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .main{
+        margin-left: 30em;
+        margin-top: 0px;
+        position: absolute;
+    }
+    
+    .contentLine{
+        position: absolute;
+        background-color: rgb(241, 240, 240);
+        width: 100vw;
+        height: 885px;
+        top: 175px;
+        left: 0px;
+    }
+
+    .logo{
+        color: rgb(255, 174, 0);
+        position: absolute;
+        font-size: 110%;
+        margin-left: 30vw;
+        top: 100px;
+        border-bottom: white solid 2px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+
+    /* end of nav */
+
+    .LoginArea{
+        margin-top: 70px;
+        margin-left: 13vw;
+    }
+
+    .regFormArea {
+        margin-top: 70px;
+        margin-left: 13vw;
+    }
+
+    .nameOfProduct {
+        width: 300px;
+        height: 30px;
+        position: absolute;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 5vw;
+    }
+
+    .descOfProduct {
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 5vw;
+    }
+
+    .imgOfProduct {
+        margin-top: 400px;
+        margin-left: 15vw;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    .productBtn {
+        width: 200px;
+        height: 25px;
+        position: absolute;
+        text-align: center;
+        margin-top: 450px;
+        margin-left: 18vw;
+        background-color: rgb(187, 255, 52);
+        border-style: none;
+        cursor: pointer;
+    }
+
+    .buyProductName {
+        top: 20px;
+        width: 99%;
+        height: 30%;
+        border: solid 1px rgb(51, 113, 207);
+        background-color: white;
+        display: flex;
+        margin-bottom: 30px;
+        z-index: 999;
+        color: rgb(51, 51, 51);
+    
+    }
+
+    .uploadItems {
+        top: 200px;
+        height: 70%;
+        width: 95%;
+        position: absolute;
+        margin-left: 1%;
+    }
+
+    .productDescBuy {
+        margin-left: 10px;
+        margin-top: 60px;
+        width: 300px;
+        height: 80px;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .descriptionOfMainPage {
+        position: absolute;
+        top: 200px;
+        margin-left: 10px;
+    }
+
+    .imgItemMainPage {
+        width: 90vw;
+        height: 200px;
+        position: absolute;
+        margin-left: 0px;
+        opacity: 75%;
+        border-radius: 15px;
+    }
+
+    .fDesc {
+        position: absolute;
+        top: 85px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        margin-left: 10px;
+        font-size: 120%;
+        width: 300px;
+    }
+
+    .imgItemMainPageOne {
+        width: 90vw;
+        height: 200px;
+        margin-left: 0px;
+        top: 235px;
+        position: absolute;
+        opacity: 75%;
+        border-radius: 15px;
+    }
+
+    .udesc {
+        position: absolute;
+        top: 305px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        font-size: 120%;
+        margin-left: 10px;
+        width: 250px;
+    }
+
+    .timg {
+        width: 90vw;
+        height: 250px;
+        margin-left: 0px;
+        position: absolute;
+        opacity: 75%;
+        top: 455px;
+        border-radius: 15px;
+    }
+    
+    .tdesc {
+        position: absolute;
+        top: 560px;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 3px 5px rgb(255, 255, 255);
+        font-size: 120%;
+        margin-left: 10px;
+        width: 200px;
+    }
+
+    
+    .selloutForm {
+        margin-left: 35px;
+    }
+}
